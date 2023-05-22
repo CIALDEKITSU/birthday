@@ -4,7 +4,7 @@ body {
     justify-content: center;
     height:100vh;
     animation: bgcolor infinite 20s;
-    
+    transform: scale(2.00);
   }
 
 
