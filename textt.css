@@ -4,9 +4,6 @@ body, html{
 	height: 100%;
 	overflow-y: hidden;
 }
-body{
-	font-family: cursive;
-}
 .wrapper{
 	width: 100%;
 	position: absolute;
@@ -118,15 +115,23 @@ body{
 	color: #fff;
 	font-size: 50px;
 	margin-top: 6%;
+	position: absolute;
+    	top: 300%;
+    	left: 50%;
+    	transform: translate(-50%, 500%);
 }
 .sige p{
 	text-align: center;
 	font-size: 15px;
 	width: 75%;
-    height: 95%;
+    	height: 95%;
 	margin: auto;
 	color: #ddd;
 	font-family: Arial;
+	position: absolute;
+    	top: 500%;
+    	left: 50%;
+    	transform: translate(-50%, 500%);
 }
 .boxx{
 	position: absolute;
