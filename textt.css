@@ -33,25 +33,53 @@ body{
 	color: #000;
 }
 .wrapper h2{
-	text-align: center;
-	color: #fff;
-	font-size: 50px;
-	margin-top: 12%;
+	top: 170%;
+   	left: 50%;
+ 	text-align: center;
+    	color: #fff;
+    	font-size: 50px;
+   	margin-top: 12%;
+    	position: absolute;
+    	transform: translateX(-50%) translateY(-50%);
 }
 .wrapper p{
 	text-align: center;
-	font-size: 30px;
-	width: 35%;
-	margin: auto;
-	color: #ddd;
-	line-height: 1mm;
-	height: 30px;
+    	font-size: 30px;
+    	width: 35%;
+    	margin: auto;
+    	color: #ddd;
+    	line-height: 1mm;
+    	height: 30px;
+    	position: absolute;
+    	top: 270%;
+    	left: 50%;
+    	transform: translateX(-50%) translateY(-50%);
 }
 .wrapper h1{
 	text-align: center;
-	margin: auto;
-	color: #ddd;
-	font-size: 30px;
+    	font-size: 30px;
+    	width: 35%;
+    	margin: auto;
+    	color: #ddd;
+    	line-height: 1mm;
+    	height: 30px;
+    	position: absolute;
+    	top: 285%;
+    	left: 50%;
+    	transform: translateX(-50%) translateY(-50%);
+}
+.wrapper h3{
+	text-align: center;
+    	font-size: 30px;
+    	width: 35%;
+    	margin: auto;
+    	color: #ddd;
+    	line-height: 1mm;
+    	height: 30px;
+    	position: absolute;
+    	top: 300%;
+    	left: 50%;
+    	transform: translateX(-50%) translateY(-50%);
 }
 .box{
 	position: absolute;
